@@ -61,6 +61,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 
+
 }
 
 .nav-title {
@@ -110,7 +111,6 @@ nav li a {
     display: flex;
     width: 1920px;
     height: 5927px;
-    padding: 50px 50px 50px 0px;
 }
 
 .banner-title {
@@ -143,6 +143,8 @@ main {
     max-width: 1920px;
     margin: 0 auto;
 }
+
+/* gamer section styles */
 
 .gamer-section {
     display: flex;
@@ -180,7 +182,7 @@ main {
     width: 520px;
 }
 
-
+/* online games section styles */
 
 .online-games-container {
     display: flex;
@@ -209,6 +211,7 @@ main {
 .online-games-img-container {
     display: flex;
     gap: 1.5rem;
+    padding-left: 100px;
 }
 
 .online-games-img-description {
@@ -217,4 +220,122 @@ main {
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
+    padding-left: 100px;
+}
+
+/* no download section styles */
+
+.No-download-container {
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.no-download-content {
+    padding-left: 300px;
+}
+
+.no-download-title {
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.no-download-description {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 400;
+    width: 353px
+}
+
+.no-download-img2 {
+    width: 318.5px;
+    height: 365.083px;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    position: relative;
+    top: 300px;
+    left: 300px;
+}
+
+/* play games section styles */
+
+.play-games-container {
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.play-games-img {
+    width: 710px;
+    height: 650px;
+    border-radius: 8px;
+}
+
+.play-games-img2 {
+    width: 318px;
+    height: 365px;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    position: relative;
+    top: 200px;
+    right: 250px;
+
+}
+
+.play-games-title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.play-games-description {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 400;
+
+}
+
+/* career section styles */
+
+.career-container {
+    background-color: #F948B2;
+    margin-top: 100px;
+display: flex;
+    height: 821px;
+}
+
+.career-title {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 50px 200px;
+}
+
+.career-description {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-left: 200px;
+}
+
+.career-btn {
+    display: flex;
+    margin-left: 200px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card{
+    color: #FFF;
+font-size: 20px;
+font-weight: 600;
+margin-top: 200px;
+
 }
