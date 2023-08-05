@@ -35,9 +35,9 @@
 /* header styles */
 
 header {
-    width: 1920px;
-    height: 130px;
-    padding: 30px 240px 30px 240px;
+ width: 1920px;
+ height: 130px;
+ padding: 30px 30px 50px 50px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
@@ -62,6 +62,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1920px;
+height: 130px;
 
 
 }
@@ -70,6 +72,7 @@ nav {
     color: #0B0223;
     font-size: 3rem;
     font-weight: 700;
+    padding-left: 150px;
 }
 
 nav>ul {
@@ -95,8 +98,9 @@ nav li a {
 .nav-title {
     font-size: 45px;
     font-weight: 700;
-    /* background: url("../images/Frame.png"), lightgray 50% / cover no-repeat; */
+   
 }
+   
 
 .nav-button {
     width: 262px;
@@ -113,8 +117,9 @@ nav li a {
 
 .banner {
     display: flex;
-    width: 1920px;
-    height: 5927px;
+    max-width: 1920px;
+    justify-content: space-between;
+    padding: 30px 0px 40px 70px;
 }
 
 .banner-title {
@@ -122,6 +127,7 @@ nav li a {
     font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
+    
 }
 
 .banner-description {
@@ -131,14 +137,10 @@ nav li a {
     -webkit-text-fill-color: transparent;
     font-size: 95px;
     font-weight: 800;
-
 }
-
-.banner-content {
-    width: 901px;
-    height: 700px;
+.banner-content{
+    padding-left: 100px;
 }
-
 
 
 /* main styles */
@@ -153,6 +155,7 @@ main {
 .gamer-section {
     display: flex;
     margin-top: 800px;
+    
 
 }
 
@@ -171,7 +174,7 @@ main {
 }
 
 .gamer-content {
-    padding-left: 100px;
+    padding-left: 20px;
 }
 
 .gamer-description {
@@ -356,6 +359,7 @@ background: #FFF;
  background: #0B0223;
  height: 636px;
  text-decoration: #FFF;
+ p
 }
 .footer-title{
     text-align: center;
@@ -410,5 +414,17 @@ padding-top: 50px;
 /* responsive styles */
 
 @media screen and (max-width: 576px) {
+  
+header{
+    padding: 55px;
+}
+nav{
+    flex-direction: column;
+}
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
     
 }
