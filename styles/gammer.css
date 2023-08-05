@@ -104,7 +104,9 @@ nav li a {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     border: none;
-
+    color: #3C354F;
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 
 /* banner styles */
@@ -362,7 +364,7 @@ font-weight: 700;
 color: #FFF;
 font-size: 2.75rem;
 font-weight: 700;
-padding: 100px;
+padding-top: 50px;
 }
 
 .footer-description{
@@ -371,14 +373,42 @@ padding: 100px;
     font-weight: 600;
     display: flex;
     gap: 100px;
-margin-left: 700px;
+padding-left: 700px;
 }
 
 .footer-logo{
     color: #FFFFFF;
 display:flex;
-margin-top: 50px;
-margin-left: 700px;
+padding-top: 50px;
+padding-left: 900px;
 gap: 100px;
+}
 
+.footer-disclaimer {
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 1rem;
+font-weight: 500;
+display: flex;
+padding-left: 780px;
+gap: 100px;
+padding-top: 50px;
+}
+.footer-last-line{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    padding-left: 1000px;
+    gap: 100px;
+    padding-top: 50px;
+}
+
+
+
+/* responsive styles */
+
+@media screen and (max-width: 576px) {
+    
 }
